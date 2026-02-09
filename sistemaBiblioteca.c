@@ -37,7 +37,7 @@ int main() {
         printf("    BIBLIOTECA - PARTE1\n");
         printf("==================================\n");
         printf("1 - Cadastrar novo livro\n");
-        Printf("2 - Listar todos os livros\n");
+        printf("2 - Listar todos os livros\n");
         printf("0 - Sair\n");
         printf("----------------------------------\n");
         printf("Escolha uma opção: ");
@@ -49,7 +49,7 @@ int main() {
         // Processamento da Opção
         switch (opcao) {
             case 1: // Cadastro de Livro
-                printf("--- Cadastro de Novo Livro ---");
+                printf("--- Cadastro de Novo Livro ---\n\n");
 
                 if (totalLivros < MAX_LIVROS) {
                     printf("Digite o nome do livro: ");
